@@ -114,7 +114,7 @@
      <div class="whitebbg center-block" style="padding-top: 72px; padding-bottom: 40px; border-radius: 30px; max-width: 1230px">
      <div class="row">
      <div class="col-md-6">
-     <img src="imgs/2d3dcad/Business Card Example 2D.png" class="examp" style="margin:0px; border-radius: 9px" width="420px" alt="2D Design"/>
+     <img src="imgs/2d3dcad/BusinessCardExample2D.png" class="examp" style="margin:0px; border-radius: 9px" width="420px" alt="2D Design"/>
      <div class="caption" style="margin-bottom:40px; font-size: 19px; font-family: 'Asap', sans-serif; margin-top:15px"> 2D design on one plane </div>
      </div>
      <div class="col-md-6">
