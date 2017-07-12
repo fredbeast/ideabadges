@@ -133,7 +133,7 @@
 <map name="fl">
       <!--
         <area shape="circle" id="lightbulb" coords="361,83,41" onMouseover="pictureChange2()" onMouseout="pictureChangeBack2()"> -->
-        <area href="quiz.html" shape="circle" id="flipchart" coords="670,287,160" onMouseover="pictureChange3()" onMouseout="pictureChangeBack3()">
+        <area href="quiz.php" shape="circle" id="flipchart" coords="670,287,160" onMouseover="pictureChange3()" onMouseout="pictureChangeBack3()">
       <!--  <a href="production.html"> <area shape="circle" id="machine" coords="59,532,53" onMouseover="pictureChange1()" onMouseout="pictureChangeBack1()"> </a>
        
         <area shape="circle" id="computer" coords="953,470,47" onMouseover="pictureChange4()" onMouseout="pictureChangeBack4()">  -->

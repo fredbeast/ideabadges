@@ -159,7 +159,7 @@ text-shadow: -1px -1px 1px rgba(150, 150, 150, 1);
     <div class="col-sm-8 col-sm-offset-2">
     <p> 	Sorry you ran out of lives!</p>
     <div id="wrongreset"> <b> Reset </b> <br>
-    <a id="reset" href="quiz.html"> <span style="margin-top: 10px" class="glyphicon glyphicon-refresh wronggly"></span> </a>
+    <a id="reset" href="quiz.php"> <span style="margin-top: 10px" class="glyphicon glyphicon-refresh wronggly"></span> </a>
     </div>
     </div>
    
@@ -657,12 +657,12 @@ text-shadow: -1px -1px 1px rgba(150, 150, 150, 1);
     <div id="q122" class="row questionbox" hidden>
     
     <div class="col-sm-8 col-sm-offset-2 whitebgp">
-    <p> 	12b. Great, you now have the CAD designs of your posters, flyers and business cards ready. To produce these items, will you use the micro mill machine, 40W laser cutter or CNC router?<br> <div id="h122" class="hint" hidden> <strong style="color: purple"> Hint: </strong> This is a hint. Follow hint. </div> 
+    <p> 	12b. Great, you now have the CAD designs of your posters, flyers and business cards ready. To produce these items, will you use the micro mill machine, Vinyl Cutter or CNC router?<br> <div id="h122" class="hint" hidden> <strong style="color: purple"> Hint: </strong> This is a hint. Follow hint. </div>
 
     <br>
     Question 12/12 </p>
     <div id="cr122" class="correct" hidden> <br> COMPLETE <br>
-    <a id="nx122" href="get.html"> <span class="glyphicon glyphicon-arrow-right nxtgly"></span> </a>
+    <a id="nx122" href="get.php"> <span class="glyphicon glyphicon-arrow-right nxtgly"></span> </a>
     </div><br>
     </div>
     <div class="col-sm-2">

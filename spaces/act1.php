@@ -65,7 +65,7 @@
     <div class="glyphicons">
     <span id="gone" class="glyphicon glyphicon-check glyphicon-zoom-in" style="font-size: 20px"></span><span id="gtwo" class="glyphicon glyphicon-check glyphicon-zoom-in" style="font-size: 20px"></span><span id="gthree" class="glyphicon glyphicon-check glyphicon-zoom-in" style="font-size: 20px"></span><span id="gfour" class="glyphicon glyphicon-check glyphicon-zoom-in" style="font-size: 20px"></span>
     </div>
-    <a href="summary.html" id="next" style="display: none; margin: 15px">
+    <a href="summary.php" id="next" style="display: none; margin: 15px">
     <button type="button" class="btn btn-info btn-sm hvr-shrink hvr">NEXT</button> </a>
      </div>
      </div>

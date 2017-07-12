@@ -154,7 +154,7 @@ Which software would be the best to use for designing your robotic pet toy?</h4>
      <div class="col-sm-4 col-sm-offset-4">
      <div id="dropone" class="ui-droppable">
      <div id="dropwrong" class="text-center ui-droppable" style="padding-top:16px; padding-bottom:10px">
-     DROP </div>
+     DROP HERE</div>
      
      </div></div></div></div>
      
@@ -179,7 +179,7 @@ Which software would be the best to use for designing your robotic pet toy?</h4>
     <strong>Correct!</strong> This item is a solid object that requires lots of 3D shaping. It will require shaping on both the inside and outside to create the details when looking at the object from different angles and those in its multiple planes. In addition, moving components can be animated on screen to check that they work!
   </div>
   <div id="alertdanger" class="alert alert-danger alert-dismissable animated fadeIn fade in text-center" role="alert" style="display: none">
-    <p> <strong>Incorrect!</strong> This item is a solid object that will require a lot of 3D shaping. It will require shaping on both the inside and outside to create the details when looking at the object from different angles. <br><br> <a href="robo.html" <button class="close" style="float: none; font-size: medium; position: inherit"> Reset </button> </a> </p>
+    <p> <strong>Incorrect!</strong> This item is a solid object that will require a lot of 3D shaping. It will require shaping on both the inside and outside to create the details when looking at the object from different angles. <br><br> <a href="robo.php" <button class="close" style="float: none; font-size: medium; position: inherit"> Reset </button> </a> </p>
   </div>
   </div>
 
@@ -221,7 +221,7 @@ Which software would be the best to use for designing your robotic pet toy?</h4>
     
      <div class="col-md-8 col-md-offset-2">
       <p class="wtx textContainer3 center-block" style="margin-bottom: 36px; margin-top: 35px; background: rgb(8, 166, 117)"> These are the best options to create our products with. 3D software uses a three dimensional space (X, Y & Z), while 2D software incorporates a flat design surface. You may have noticed on each 2D plan, the design has a <b style="color: red"> red </b> border, this called a crop mark. This tells the piece of machinery that will produce your design exactly where it will need to cut upon processing your 2D design file. If you create a <b style="color: black">black </b> line, this will cause the piece of machinery to create an engraving. </p> </div>
-     <div class="col-sm-8 col-sm-offset-2"><a id="nextstep" href="3d2dg.html">
+     <div class="col-sm-8 col-sm-offset-2"><a id="nextstep" href="3d2dg.php">
     <button type="button" style="margin-top:20 px; margin-bottom:20px" class="btn btn-info btn-sm hvr-shrink hvr">NEXT</button> </a>
      </div>
      </div>

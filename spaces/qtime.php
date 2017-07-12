@@ -440,7 +440,7 @@
          <br>
      
          <br>
-         <a href="qtimeo.html"> <button type="button" class="btn btn-danger center-block">Reset</button> </a>
+         <a href="qtime.php"> <button type="button" class="btn btn-danger center-block">Reset</button> </a>
         </div>
         </div>
        
@@ -452,7 +452,7 @@
  
     <div id="next" class="row" hidden>
     <div class="col-sm-8 col-sm-offset-2">
-    <a href="produce.html"> <button  type="button" style="margin-top:0px" class="btn btn-info btn-sm hvr-shrink hvr"> NEXT</button> </a>
+    <a href="produce.php"> <button  type="button" style="margin-top:0px" class="btn btn-info btn-sm hvr-shrink hvr"> NEXT</button> </a>
      </div>
      </div>
      </div>
@@ -594,9 +594,10 @@ function dropEventHandler1(event, ui) {
  Dropone++;
  
  if (Dropone === 3){
-	  $('#machines, #descriptions').delay(100).fadeOut(1500, function(){
-            
-			 location.assign('qtimet.html')
+	  $('#machines, #descriptions').delay(100).fadeOut(1500); 
+	  $('#machines2, #descriptions2').delay(100).fadeIn(1500, function(){
+              $('#q1').hide();
+	         $('#q2').show();
         });
 	  
 	  }
@@ -610,9 +611,10 @@ function dropEventHandler2(event, ui) {
   Dropone++;
  
  if (Dropone === 3){
-	  $('#machines, #descriptions').delay(100).fadeOut(1500, function(){
-            
-			 location.assign('qtimet.html')
+	  $('#machines, #descriptions').delay(100).fadeOut(1500); 
+	  $('#machines2, #descriptions2').delay(100).fadeIn(1500, function(){
+              $('#q1').hide();
+	         $('#q2').show();
         });
 	  
 	  }
@@ -625,9 +627,10 @@ function dropEventHandler3(event, ui) {
   Dropone++;
  
  if (Dropone === 3){
-	  $('#machines, #descriptions').delay(100).fadeOut(1500, function(){
-            
-			 location.assign('qtimet.html')
+	  $('#machines, #descriptions').delay(100).fadeOut(1500); 
+	  $('#machines2, #descriptions2').delay(100).fadeIn(1500, function(){
+             $('#q1').hide();
+	         $('#q2').show();
         });
 	  
 	  }

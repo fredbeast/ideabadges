@@ -82,7 +82,7 @@
     </div>
     </div>
     </div>
-    <a href="qtimeo.html" id="next2" style="display: none; margin: 15px">
+    <a href="qtimeo.php" id="next2" style="display: none; margin: 15px">
     <button type="button" class="btn btn-info btn-sm hvr-shrink hvr">NEXT</button> </a>
      </div>
     

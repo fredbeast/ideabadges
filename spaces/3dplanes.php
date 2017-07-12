@@ -479,7 +479,7 @@ width: 306px;
     </div>
     
    
-    <div id="finish" style="text-align: center; color: rgb(103, 255, 170); text-shadow: rgb(5, 20, 7) 1px 1px 3px" hidden> <h3> Great Work! </h3> <br> <a href="greatwork.html">
+    <div id="finish" style="text-align: center; color: rgb(103, 255, 170); text-shadow: rgb(5, 20, 7) 1px 1px 3px" hidden> <h3> Great Work! </h3> <br> <a href="greatwork.php">
     <button type="button" style="text-align: center; margin-bottom: 30px" class="btn btn-info btn-lg hvr-shrink hvr pulse infinite animated">FINISH</button> </a>
      </div>
      </div>

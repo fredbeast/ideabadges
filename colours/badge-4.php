@@ -5,7 +5,7 @@ require '../vendor/autoload.php';
 session_start();
 
 if($_SESSION['authorised'] < 5){
-    header('Location: start.php');
+    header('Location: badge-3.php');
 }
 $_SESSION['authorised'] = 5;
 

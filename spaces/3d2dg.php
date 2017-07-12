@@ -1,3 +1,24 @@
+<?php
+
+require '../vendor/autoload.php';
+
+session_start();
+
+$client = new \GuzzleHttp\Client();
+$res = $client->request('GET', 'https://idea.org.uk/api/user', [
+    'http_errors' => false,
+    'headers' => [
+        'Authorization' => 'Bearer ' . $_SESSION['oauth2_access_token']
+    ]
+]);
+
+$user = json_decode($res->getBody());
+
+if ($_SESSION['authorised'] == 2) {
+    $_SESSION['authorised'] = 3;
+}
+
+?>
 <!DOCTYPE html>
 
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -325,32 +346,32 @@ margin-top: 40px;
       
      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> 
      <img src="imgs/task1/unfitems/planeunf.png" class="pictureholder img-responsive img-rounded center-block">
-     <div id="drop1" class="ui-droppable dropbox  text-center" style="color: white"> <br>   Drop! </div>
+     <div id="drop1" class="ui-droppable dropbox  text-center" style="color: white"> <br>   DROP HERE </div>
      </div>
      
      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> 
      <img src="imgs/task1/unfitems/clockunf.png" class="pictureholder img-responsive img-rounded  center-block"> 
-     <div id="drop2" class="ui-droppable dropbox  text-center" style="color: white"> <br> Drop! </div>  
+     <div id="drop2" class="ui-droppable dropbox  text-center" style="color: white"> <br> DROP HERE </div>  
      </div>
      
      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> 
      <img src="imgs/task1/unfitems/chessunf.png" class="pictureholder img-responsive img-rounded  center-block">  
-     <div id="drop3" class="ui-droppable dropbox  text-center" style="color: white"> <br>  Drop! </div>
+     <div id="drop3" class="ui-droppable dropbox  text-center" style="color: white"> <br>  DROP HERE </div>
      </div>
      
      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> 
      <img src="imgs/task1/unfitems/dinounf.png" class="pictureholder img-responsive img-rounded  center-block">
-     <div id="drop4" class="ui-droppable dropbox  text-center" style="color: white"> <br>  Drop! </div>
+     <div id="drop4" class="ui-droppable dropbox  text-center" style="color: white"> <br>  DROP HERE </div>
      </div>
      
      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> 
      <img src="imgs/task1/unfitems/tshirtunf.png" class="pictureholder img-responsive img-rounded  center-block">
-     <div id="drop5" class="ui-droppable dropbox  text-center" style="color: white"> <br>  Drop! </div>   
+     <div id="drop5" class="ui-droppable dropbox  text-center" style="color: white"> <br>  DROP HERE </div>   
      </div>
      
      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"> 
      <img src="imgs/task1/unfitems/birdunf.png" class="pictureholder img-responsive img-rounded  center-block">  
-     <div id="drop6" class="ui-droppable dropbox text-center" style="color: white"> <br>  Drop! </div><br>
+     <div id="drop6" class="ui-droppable dropbox text-center" style="color: white"> <br>  DROP HERE </div><br>
      </div>
      </div>
      </div>
@@ -359,7 +380,7 @@ margin-top: 40px;
      <br>
      
      <div id="nextactivity" class="text-center navbar-fixed-bottom" hidden> 
-    <a href="2dnet.html">
+    <a href="2dnet.php">
     <button type="button" style="margin-bottom: 160px" class="btn btn-info hvr-shrink hv animated pulse infinite">NEXT</button> </a></div>
     
     

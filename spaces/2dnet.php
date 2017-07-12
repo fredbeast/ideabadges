@@ -975,7 +975,7 @@ background: white;
      
     </div>
         <div class="col-sm-12">
-   <div class="text-center"><a id="finish" href="3dplanes.html" hidden>
+   <div class="text-center"><a id="finish" href="3dplanes.php" hidden>
     <button type="button" style="margin-top:-15px" class="btn btn-info animated pulse infinite hvr-shrink hvr">NEXT</button> </a>
      </div>
     </div>

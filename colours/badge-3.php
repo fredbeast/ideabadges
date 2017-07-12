@@ -6,7 +6,7 @@ session_start();
 
 
 if($_SESSION['authorised'] < 4){
-    header('Location: start.php');
+    header('Location: badge-2.php');
 }
 $_SESSION['authorised'] = 4;
 

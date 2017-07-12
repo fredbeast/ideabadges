@@ -70,7 +70,7 @@
       <!--
         <area shape="circle" id="lightbulb" coords="361,83,41" onMouseover="pictureChange2()" onMouseout="pictureChangeBack2()"> 
         <area shape="circle" id="flipchart" coords="628,287,46" onMouseover="pictureChange3()" onMouseout="pictureChangeBack3()"> -->
-        <a href="production.html"> <area shape="circle" id="machine" coords="59,532,90" onMouseover="pictureChange1()" onMouseout="pictureChangeBack1()"> </a>
+        <a href="production.php"> <area shape="circle" id="machine" coords="59,532,90" onMouseover="pictureChange1()" onMouseout="pictureChangeBack1()"> </a>
        
        <!-- 
         <area shape="circle" id="computer" coords="953,470,47" onMouseover="pictureChange4()" onMouseout="pictureChangeBack4()">

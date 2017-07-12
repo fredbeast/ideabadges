@@ -152,7 +152,7 @@ Which software would be the best to use for designing your jewellery?</h4>
      <div class="col-sm-4 col-sm-offset-4">
      <div id="dropone" class="ui-droppable">
      <div id="dropwrong" class="text-center ui-droppable" style="padding-top:16px; padding-bottom:10px">
-     DROP </div>
+     DROP HERE</div>
      
      </div></div></div></div>
      
@@ -181,14 +181,14 @@ Which software would be the best to use for designing your jewellery?</h4>
     <strong>Correct!</strong> This product is one sided making it easy to design, it has no 3D sweeps on the side so it can be designed simply from above using one plane. 
   </div>
   <div id="alertdanger" class="alert alert-danger alert-dismissable animated fadeIn fade in text-center" role="alert" style="display: none">
-    <p> <strong>Incorrect!</strong> There is no real benefit to designing this product using 3D software, it has no 3D sweeps on the side so it can be designed simply from above using one plane.  <br><br> <a href="jewel.html" <button class="close" style="float: none; font-size: medium; position: inherit"> Reset </button> </a> </p>
+    <p> <strong>Incorrect!</strong> There is no real benefit to designing this product using 3D software, it has no 3D sweeps on the side so it can be designed simply from above using one plane.  <br><br> <a href="jewel.php" <button class="close" style="float: none; font-size: medium; position: inherit"> Reset </button> </a> </p>
   </div>
   </div>
 
 <div id="next" class="container-fluid text-center animated fadeIn" hidden>
  
     <div class="row">
-    <div class="col-sm-8 col-sm-offset-2"><a href="robo.html">
+    <div class="col-sm-8 col-sm-offset-2"><a href="robo.php">
     <button type="button" style="margin-top:0px" class="btn btn-info btn-sm hvr-shrink hvr">NEXT</button> </a>
      </div>
      </div>

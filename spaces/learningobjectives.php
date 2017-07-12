@@ -57,7 +57,7 @@
     </div>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
-    <a href="act1.html">
+    <a href="act1.php">
     <button type="button" class="btn btn-info hvr-shrink hvr">Let's Begin!</button> </a>
     </div>
     </div>

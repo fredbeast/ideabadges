@@ -1,3 +1,24 @@
+<?php
+
+require '../vendor/autoload.php';
+
+session_start();
+
+$client = new \GuzzleHttp\Client();
+$res = $client->request('GET', 'https://idea.org.uk/api/user', [
+    'http_errors' => false,
+    'headers' => [
+        'Authorization' => 'Bearer ' . $_SESSION['oauth2_access_token']
+    ]
+]);
+
+$user = json_decode($res->getBody());
+
+if ($_SESSION['authorised'] == 3) {
+    $_SESSION['authorised'] = 4;
+}
+?>
+
 <!DOCTYPE html>
 
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -440,7 +461,7 @@
          <br>
      
          <br>
-         <a href="qtimet.html"> <button type="button" class="btn btn-danger center-block">Reset</button> </a>
+         <a href="qtimet.php"> <button type="button" class="btn btn-danger center-block">Reset</button> </a>
         </div>
         </div>
        
@@ -452,7 +473,7 @@
  
     <div id="next" class="row" hidden>
     <div class="col-sm-8 col-sm-offset-2">
-    <a href="produce.html"> <button  type="button" style="margin-top:0px" class="btn btn-info btn-sm hvr-shrink hvr"> NEXT</button> </a>
+    <a href="produce.php"> <button  type="button" style="margin-top:0px" class="btn btn-info btn-sm hvr-shrink hvr"> NEXT</button> </a>
      </div>
      </div>
      </div>

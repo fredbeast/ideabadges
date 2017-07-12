@@ -298,7 +298,7 @@ margin-bottom: 140px;
     
  
      <div id="machines" class="countainer animated bounceIn text-center navbar-fixed-bottom">
-     <div id="next" hidden> <a href="congratulations.html"> <button id="finish" class="btn hvr-shrink hvr animated pulse infinite hvr-pulse-grow">FINISH</button> </a></div>
+     <div id="next" hidden> <a href="congratulations.php"> <button id="finish" class="btn hvr-shrink hvr animated pulse infinite hvr-pulse-grow">FINISH</button> </a></div>
      <div class="row">  
      
    
@@ -407,11 +407,11 @@ margin-bottom: 140px;
         </div><br><br>
          <div class="col-sm-8"> <h1 class="media-header"> </h1> <p class="text-center center-block" style="margin-left: 10px; font-size: 24px; margin-bottom: 24px; color: rgb(118, 100, 100)"> <b> Too many wrong answers </b></p>
         </div>
-         <a href="production.html"> <p type="button" class="text-center center-block" > Review section on production </p> </a> 
+         <a href="production.php"> <p type="button" class="text-center center-block" > Review section on production </p> </a>
          
          <p style="opacity:0"> . </p>
        
-         <a href="produce.html"> <button type="button" class="btn btn-danger center-block">Reset</button> </a>
+         <a href="produce.php"> <button type="button" class="btn btn-danger center-block">Reset</button> </a>
         </div>
         </div>
        

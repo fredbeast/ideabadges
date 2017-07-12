@@ -59,15 +59,16 @@
     <p> • How designers combine computer-aided design and production to create a range of different products.
     </p>
     </div>
-   
+    <br>
+
+    <a href="badge-completed.php">
+        <button type="button" class="btn btn-success btn-sm animated pulse infinite">COMPLETE  BADGE</button> </a>
+    <br>
     <br>
     <p class="text-center txt2">
 With the aim of making almost anything, maker spaces inspire entrepreneurs, artists and designers on their creative journey in making products for business, their startup or for fun. By providing access to this creative environment, they help early-stage innovative companies design, prototype and go to market with their concept. Schools, colleges and universities regularly use maker spaces to provide their students with a fun and creative environment where they can prototype their own ideas and build their own products.</p>
     
-    <br>
-    
-    <a href="https://idea.org.uk">
-    <button type="button" class="btn btn-info btn-sm hvr-shrink hvr">GO BACK TO iDEA</button> </a>
+
     </div>
     </div>
     <br><br><br><br>
@@ -120,20 +121,20 @@ var isPlaying = false;
 function fadeOut() {
 			
 		$('#music').animate({volume: 0}, 500, function(){
-		location.assign('learningobjectives.html') });
+		location.assign('learningobjectives.php') });
 			
 		}
 		
 		function togglePlay() {
   if (isPlaying) {
-    myAudio.pause()
+    myAudio.pause();
 	$('#musictoggle').css('color', "rgba(194, 215, 221, 0.53)");
   } else {
     myAudio.play();
 	$('#musictoggle').css('color', "rgba(0, 180, 229, 0.60)");
   }
-};
-myAudio.onplaying = function() {
+        }
+    myAudio.onplaying = function() {
   isPlaying = true;
 };
 myAudio.onpause = function() {
