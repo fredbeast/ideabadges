@@ -118,14 +118,14 @@
      <div class="caption" style="margin-bottom:40px; font-size: 19px; font-family: 'Asap', sans-serif; margin-top:15px"> 2D design on one plane </div>
      </div>
      <div class="col-md-6">
-     <img src="imgs/2d3dcad/Car Examp 3D.png" class="examp" style="margin:0px; border-radius: 9px" width="400px" alt="3D Design"/>
+     <img src="imgs/2d3dcad/CarExamp3D.png" class="examp" style="margin:0px; border-radius: 9px" width="400px" alt="3D Design"/>
      <div class="caption" style="margin-bottom:40px; font-size: 19px; margin-top:15px; font-family: 'Asap', sans-serif"> 3D design on multiple planes </div>
      </div>
      
      </div><br>
      <div class="row">
      <div class="col-md-6 col-md-offset-3">
-     <img src="imgs/2d3dcad/Design Net 2D.png" class="examp" style="margin:0px; font-family: 'Asap', sans-serif; margin-bottom: 20px; border-radius: 9px" width="400px" alt="2D Design"/> 
+     <img src="imgs/2d3dcad/DesignNet2D.png" class="examp" style="margin:0px; font-family: 'Asap', sans-serif; margin-bottom: 20px; border-radius: 9px" width="400px" alt="2D Design"/>
      <div class="caption" style="margin-top: 0px; font-size: 19px; font-family: 'Asap', sans-serif"> 2D design net </div>
      </div>
      
