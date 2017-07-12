@@ -269,23 +269,23 @@ margin-bottom: 140px;
     
      <div id="dropone" class="col-xs-6 col-sm-3 col-md-3 ui-droppable"><div id="tiponedrop">
        <p class="name" style="font-family: 'Love Ya Like A Sister', cursive; font-size: 22px; color: #2c7891; margin-top:24px"> <b> Christmas Cards <br> <small style="font-family: 'Asap', sans-serif" class="text-muted"> 2D DESIGN </small> </b> </p>
-     <img  id="w1" src="imgs/cad products/cadp1.png" class="text-center img-rounded" style="margin:5px; margin-top:2px; max-width: 95%" alt="2D Design"></div>
+     <img id="w1" src="imgs/cadproducts/cadp1.png" class="text-center img-rounded" style="margin:5px; margin-top:2px; max-width: 95%" alt="2D Design"></div>
      </div>
      
      <div id="droptwo" class="col-xs-6 col-sm-3 col-md-3 ui-droppable"> <div id="tiptwodrop"><p class="name" style="font-family: 'Love Ya Like A Sister', cursive; font-size: 22px; color: #5a5419; margin-top:54px"> <b> Phone Case <br> <small style="font-family: 'Asap', sans-serif" class="text-muted"> 3D DESIGN </small> </b> </p>
-     <img id="w2" src="imgs/cad products/cadp2.png" class="text-center img-rounded" style="margin:5px; margin-top:2px; max-width: 95%" alt="3D Design"></div>
+     <img id="w2" src="imgs/cadproducts/cadp2.png" class="text-center img-rounded" style="margin:5px; margin-top:2px; max-width: 95%" alt="3D Design"></div>
      </div>
       <div class="clearfix visible-xs"></div>
   
       
      <div id="dropthree" class="col-xs-6 col-sm-3 col-md-3 ui-droppable"><div id="tipthreedrop"><p class="name" style="font-family: 'Love Ya Like A Sister', cursive; font-size: 22px; color: #973651; margin-top:24px"> <b> Jewellery <br> <small style="font-family: 'Asap', sans-serif" class="text-muted"> 2D DESIGN </small> </b> </p>
-     <img id="w3" src="imgs/cad products/cadp3.png" class="text-center img-rounded" style="margin:5px; margin-top:2px; max-width: 95%" alt="2D Design"></div>
+     <img id="w3" src="imgs/cadproducts/cadp3.png" class="text-center img-rounded" style="margin:5px; margin-top:2px; max-width: 95%" alt="2D Design"></div>
      </div>
      
      <div id="dropfour" class=" col-xs-6 col-sm-3 col-md-3  ui-droppable"><p class="name" style="font-family: 'Love Ya Like A Sister', cursive; font-size: 22px; color: #5a8d7b; margin-top:24px"> <b> Robotic Pet Toy <br> <small style="font-family: 'Asap', sans-serif" class="text-muted"> 3D DESIGN </small> </b> </p>
      <div id="dropfive" class="ui-droppable"><div id="dropsix" class="ui-droppable">
      
-     <img id="w4" src="imgs/cad products/cadp4.png"  class="text-center img-rounded" style="margin:5px; margin-top:2px; max-width: 95%" alt="3D Design">
+     <img id="w4" src="imgs/cadproducts/cadp4.png" class="text-center img-rounded" style="margin:5px; margin-top:2px; max-width: 95%" alt="3D Design">
      </div>
      </div>
      </div>

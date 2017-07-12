@@ -196,23 +196,23 @@ Which software would be the best to use for designing your robotic pet toy?</h4>
      <div id="results" class="container counter-fluid animated bounceIn text-center" style="margin-top: -10px" hidden>
      <div class="row">
      <div class="col-md-3"><p style="font-family: 'Love Ya Like A Sister', cursive; margin-top: 30px; font-size: 22px; color: #2c7891"> <b> Christmas Cards <br> </b> </p>
-     <img src="imgs/cad products/cadp1.png" class="text-center img-rounded" style="margin:0px; margin-bottom: 20px; margin-top:4px" width="200px" alt="2D Design">
+     <img src="imgs/cadproducts/cadp1.png" class="text-center img-rounded" style="margin:0px; margin-bottom: 20px; margin-top:4px" width="200px" alt="2D Design">
      <p class="wtx"> <b style="font-family: 'Asap', sans-serif; font-weight: bold; font-size: 15px"> 2D DESIGN </b> </p>
      
      </div>
      <div class="col-md-3"><p style="font-family: 'Love Ya Like A Sister', cursive; font-size: 22px; margin-top: 30px; color: #5a5419"> <b> Phone Case </b> </p>
-     <img src="imgs/cad products/cadp2.png" class="text-center img-rounded" style="margin:0px; margin-right:-2px; margin-left:-8px; margin-top: 4px; margin-bottom: 20px" width="230px" alt="3D Design">
+     <img src="imgs/cadproducts/cadp2.png" class="text-center img-rounded" style="margin:0px; margin-right:-2px; margin-left:-8px; margin-top: 4px; margin-bottom: 20px" width="230px" alt="3D Design">
      <p class="wtx"> <b style="font-family: 'Asap', sans-serif; font-weight: bold; font-size: 15px"> 3D DESIGN </b> </p>
      
      </div>
      <div class="col-md-3"><p style="font-family: 'Love Ya Like A Sister', cursive; margin-top: 30px; font-size: 22px; color: #973651"> <b> Jewellery <br> </b> </p>
-     <img src="imgs/cad products/cadp3.png" class="text-center img-rounded" style="margin:0px; margin-top:3px; margin-bottom: 20px;" width="200px" alt="2D Design">
+     <img src="imgs/cadproducts/cadp3.png" class="text-center img-rounded" style="margin:0px; margin-top:3px; margin-bottom: 20px;" width="200px" alt="2D Design">
      
      <p class="wtx"> <b style="font-family: 'Asap', sans-serif; font-weight: bold; font-size: 15px"> 2D DESIGN </b> </p>
      
      </div>
      <div class="col-md-3"><p style="font-family: 'Love Ya Like A Sister', cursive; font-size: 22px; color: #5a8d7b; margin-top: 30px"> <b> Robotic Pet Toy <br> </b> </p>
-     <img src="imgs/cad products/cadp4.png" class="text-center img-rounded" style="margin:0px; margin-top:3px; margin-bottom: 20px;" width="230px" alt="2D Design">
+     <img src="imgs/cadproducts/cadp4.png" class="text-center img-rounded" style="margin:0px; margin-top:3px; margin-bottom: 20px;" width="230px" alt="2D Design">
      
      <p class="wtx"> <b style="font-family: 'Asap', sans-serif; font-weight: bold; font-size: 15px"> 3D DESIGN </b> </p>
      

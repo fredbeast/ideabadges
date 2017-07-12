@@ -150,7 +150,7 @@ $_SESSION['authorised'] = 1;
     <button id="musictoggle" class="glyphicon glyphicon-music text-left btn" style="background: transparent; border-radius: 20px" onClick="togglePlay()"></button>
     <h1 class="center-block hvr-wobble-bottom" style="margin-top: 50px !important; margin-bottom: 20px">Maker Spaces <br> Badge</h1>
     <p id="digitalfab" class="text-muted" style="margin-bottom: 28px; font-size: 17px"> Digital Fabrication </p>
-    <p class="center-block carboxstyle img-circle"> <img src="imgs/car animations/caranimationpadded.gif" class="center-block car" alt=""/> </p>
+    <p class="center-block carboxstyle img-circle"> <img src="imgs/caranimations/caranimationpadded.gif" class="center-block car" alt=""/> </p>
 
 
     <p>&nbsp;</p> <a onClick="fadeOut()">

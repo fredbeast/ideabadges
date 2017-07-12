@@ -93,22 +93,22 @@
     
      <div id="img1" class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
        <p style="font-family: 'Love Ya Like A Sister', cursive; font-size: 18px; color: #2c7891; margin-top:15px"> <b> Christmas Cards </b> </p>
-     <img  src="imgs/final products/card.jpg" class="text-center img-rounded" style="margin:5px; margin-top:2px; max-width: 95%" alt="2D Design">
+     <img src="imgs/finalproducts/card.jpg" class="text-center img-rounded" style="margin:5px; margin-top:2px; max-width: 95%" alt="2D Design">
      </div>
      
      <div id="img2" class="col-xs-6 col-sm-3 col-md-3 col-lg-3"> 
      <p style="font-family: 'Love Ya Like A Sister', cursive; font-size: 18px; color: #5a5419; margin-top:15px"> <b> Phone Case </b> </p>
-     <img src="imgs/final products/case.jpg" class="text-center img-rounded" style="margin:5px; margin-top:2px; max-width: 95%" alt="3D Design">
+     <img src="imgs/finalproducts/case.jpg" class="text-center img-rounded" style="margin:5px; margin-top:2px; max-width: 95%" alt="3D Design">
      </div>
      
      <div class="clearfix visible-xs"></div>
      
      <div id="img3" class="col-xs-6 col-sm-3 col-md-3 col-lg-3"><p style="font-family: 'Love Ya Like A Sister', cursive; font-size: 18px; color: #973651; margin-top:15px"> <b> Jewellery </b> </p>
-     <img src="imgs/final products/jewels.jpg" class="text-center img-rounded" style="margin:5px; margin-top:2px; max-width: 95%" alt="2D Design">
+     <img src="imgs/finalproducts/jewels.jpg" class="text-center img-rounded" style="margin:5px; margin-top:2px; max-width: 95%" alt="2D Design">
      </div>
      
      <div id="img4" class="col-xs-6 col-sm-3 col-md-3 col-lg-3"><p style="font-family: 'Love Ya Like A Sister', cursive; font-size: 18px; color: #5a8d7b; margin-top:15px"> <b> Robotic Pet Toy </b> </p>
-     <img src="imgs/final products/robottoy.jpg"  class="text-center img-rounded" style="margin:5px; margin-top:2px; max-width: 87%" alt="3D Design">
+     <img src="imgs/finalproducts/robottoy.jpg" class="text-center img-rounded" style="margin:5px; margin-top:2px; max-width: 87%" alt="3D Design">
      </div>
      
      </div>
@@ -117,7 +117,7 @@
      <div class="container animated fadeIn" id="happy" hidden> 
      <div class="row" style="position:relative">
      
-     <img src="imgs/final products/happy.png" style="padding-left: 7px; padding-right: 4px; max-width: 100%; margin-bottom: 72px; background: white; border-radius: 10px; box-shadow: 1px 1px 10px #e4e4e4" class="center-block">
+     <img src="imgs/finalproducts/happy.png" style="padding-left: 7px; padding-right: 4px; max-width: 100%; margin-bottom: 72px; background: white; border-radius: 10px; box-shadow: 1px 1px 10px #e4e4e4" class="center-block">
      <a id="next1p5" hidden> <button type="button" class="btn btn-info btn-sm hvr-shrink hvr animated pulse infinite center-block">NEXT</button> </a>
      
      </div>
