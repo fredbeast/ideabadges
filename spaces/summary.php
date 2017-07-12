@@ -74,10 +74,8 @@ Click on the computer screen to begin!</p>
         <area shape="circle" id="flipchart" coords="628,287,46" onMouseover="pictureChange3()" onMouseout="pictureChangeBack3()">
         <area shape="circle" id="machine" coords="59,532,53" onMouseover="pictureChange1()" onMouseout="pictureChangeBack1()">
         -->
-        <a href="2d3d.php">
-        <area shape="circle" id="computer" coords="976,517,90" onMouseover="pictureChange4()" onMouseout="pictureChangeBack4()">
-        </a>
-	
+        <area href="2d3d.php" shape="circle" id="computer" coords="976,517,90" onMouseover="pictureChange4()" onMouseout="pictureChangeBack4()">
+
 
 </map>
 <br>

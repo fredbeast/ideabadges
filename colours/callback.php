@@ -1,9 +1,8 @@
 <?php
-session_start();
 
 require '../vendor/autoload.php';
 
-
+session_start();
 
 $state = $_GET['state'];
 $code = $_GET['code'];
