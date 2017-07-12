@@ -7,7 +7,6 @@
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">
 	<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1">
-	<script src="imgs/2d3dcad/startttaskbackgrounds/March.png"></script>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/animate.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -77,9 +76,10 @@ Click on the computer screen to begin!</p>
         -->
         <a href="2d3d.php">
         <area shape="circle" id="computer" coords="976,517,90" onMouseover="pictureChange4()" onMouseout="pictureChangeBack4()">
-</a>
+        </a>
 	
-    </map>
+
+</map>
 <br>
 <br>
 <div class="container-fluid text-center animated fadeInDown">
