@@ -7,6 +7,15 @@ session_start();
 $state = $_GET['state'];
 $code = $_GET['code'];
 
+if (isset($_GET['error']))
+{
+    if( $_GET['error'] === 'login_required' || $_GET['error'] === 'consent_required' || $_GET['error'] === 'interaction_required'  )
+    {
+        header("Location: https://idea.org.uk/");
+        exit();
+    }
+}
+
 if (!isset($code)) {
     exit('Failed to get an authorization code');
 }

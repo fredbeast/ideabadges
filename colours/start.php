@@ -10,9 +10,10 @@ $params = [
     'client_id' => getenv('COLOURS_BADGE_CLIENT_ID'),
     'redirect_uri' => getenv('COLOURS_BADGE_REDIRECT_URI'),
     'scope' => 'openid',
-    'state' => $state
+    'state' => $state,
+    'prompt' => 'none'
 ];
 
-$authUrl = 'https://idea.eu.auth0.com/i/oauth2/authorize?' . http_build_query($params);
+$authUrl = 'https://idea.eu.auth0.com/authorize?' . http_build_query($params);
 
 header("Location: $authUrl");
