@@ -21,6 +21,8 @@ if($_SESSION['authorised'] == 5) {
 
     $response = json_decode($res->getBody());
 
+    $return_url = $response->redirect_uri;
+
     header("Location: logout.php?return_url=$return_url");
 }
 else {
