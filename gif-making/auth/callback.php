@@ -31,7 +31,7 @@ $res = $client->request('POST', 'https://idea.eu.auth0.com/oauth/token', [
     'form_params' => [
         'client_id' => getenv('VIRTUAL_BADGE_CLIENT_ID'),
         'client_secret' => getenv('VIRTUAL_BADGE_CLIENT_SECRET'),
-        'redirect_uri' => getenv('VIRTUAL_BADGE_REDIRECT_URI'),
+        'redirect_uri' => getenv('COLOURS_BADGE_REDIRECT_URI'),
         'code' => $code,
         'grant_type' => 'authorization_code'
     ]

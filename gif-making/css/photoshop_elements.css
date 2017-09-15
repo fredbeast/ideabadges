@@ -1,0 +1,160 @@
+/*Materialize.CSS for Footer*/
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   background: url('./../public/images/GIF_badge_background.svg');
+   background-size: cover;
+ }
+
+ #imgRight {
+   float: right;
+   width: 100px;
+   display: block;
+ }
+
+ #imgLeft {
+   float: left;
+   width: 100px;
+   display: block;
+ }
+
+ @media screen and (max-width: 768px) {
+   #imgRight {
+     float: right;
+     width: 50px;
+     display: block;
+   }
+
+   #imgLeft {
+     float: left;
+     width: 50px;
+     display: block;
+   }
+ }
+
+ i.material-icons {
+     font-size: 25px;
+     font-weight: bold;
+ }
+ 
+ div.badgeDescriptionBoxTwo {
+   font-family: 'Roboto', sans-serif;
+ display: block;
+ margin: auto;
+ min-width: 300px;
+ max-width: 600px;
+ max-height: 650px;
+ padding: 20px;
+ border-radius: 15px 50px;
+ background: #cd5b45;
+ color: white;
+ }
+
+ main {
+   flex: 1 0 auto;
+ }
+
+ footer.page-footer {
+     padding: 0;
+     background-color: #ffffff;
+ }
+
+h2.badgeQuizQuestion{
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+}
+
+
+h2.badgeQuizQuestion{
+  font-size: 25px;
+  font-family: 'Anton'
+}
+
+h2 {
+  margin-top: 100px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+#motivatons {
+  height: 500px;
+}
+
+#draggableContainer {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  max-height: 200px;
+}
+
+#droppableContainer {
+  margin-top: 11%;
+}
+@media only screen and (min-width : 992px) { 
+  #droppableContainer {
+    margin-top: 5%;
+  }
+}
+
+.draggablePsSteps {
+  width: 250px;
+  height: 75px;
+  padding: 20px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background: #26a69a 0%;
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  border: none;
+}
+
+.draggableMotivations:hover {
+  background-color: rgb(51, 120, 149);
+}
+
+.draggableMotivations:active {
+  background-color: #0b2e6b;
+}
+
+
+#droppablePsStep1, #droppablePsStep2, #droppablePsStep3, #droppablePsStep4, #droppablePsStep5, #droppablePsStep6, #droppablePsStep7, #droppablePsStep8, #droppablePsStep9, #droppablePsStep10, #droppablePsStep11, #droppablePsStep12, #droppablePsStep13 {
+  width: 252px;
+  height: 77px;
+  border: 1px solid #56c4d0;
+  border-radius: 10px;
+  color: black;
+  margin: 0 auto;
+  border-style: dashed;
+  background: #f2f2f2;
+}
+
+@media only screen and (min-width : 992px) { 
+  #droppableIntrinsic {
+    margin-left: 30%;
+  }
+  #intrinsicP {
+    margin-right: 30%;
+  }
+}
+
+@media only screen and (min-width : 992px) { 
+  #droppableExtrinsic {
+    margin-right: 30%;
+  }
+  #extrinsicP {
+    margin-right: 30%;
+  }
+}
+
+p#pNumber{
+position: absolute;
+    text-align: center;
+    color: darkblue;
+    font-size: 20px;
+    margin-left: 35px;
+  }

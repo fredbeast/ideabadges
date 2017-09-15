@@ -1,0 +1,106 @@
+#imgRight {
+  float: right;
+  width: 100px;
+  display: block;
+}
+
+#imgLeft {
+  float: left;
+  width: 100px;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  #imgRight {
+    float: right;
+    width: 50px;
+    display: block;
+  }
+
+  #imgLeft {
+    float: left;
+    width: 50px;
+    display: block;
+  }
+
+  div.artboard {
+    width: 250px;
+  height: 250px;
+    display: block;
+    margin: auto;
+    background: white;
+  }
+}
+
+i.material-icons {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+div.monitor{
+  max-width: 1000px;
+max-height: 800px;
+  border: 23px solid black;
+  background: darkgrey;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.monitorStand {
+  display: block;
+  margin: auto;
+  width: 25px;
+  height: 40px;
+  background: black;
+}
+
+.monitorBottom{
+  width: 300px;
+  display: block;
+  margin: auto;
+  height: 20px;
+  background: black;
+  border-radius: 50px 50px 0px 0px;
+}
+
+.PhotoshopBar{
+  max-width: 100%;
+height: 25px;
+background: lightgrey;
+}
+
+.photoshop {
+  font-family: 'Anton', sans-serif;
+  background: lightgrey;
+}
+
+
+div.artboard {
+  width: 290px;
+height: 290px;
+  display: block;
+  margin: auto;
+  background: white;
+}
+
+.timelinePanel {
+  width: 550px;
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+
+.otherPanel {
+  height: 50px;
+  display: block;
+  margin: auto;
+  margin-left: 100px;
+}
+
+img.imgFrame{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background: white;
+}

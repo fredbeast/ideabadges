@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+
+RewriteRule http://localhost:8000 http://localhost:8000/badge/step_1.php

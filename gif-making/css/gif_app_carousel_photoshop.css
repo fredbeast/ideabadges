@@ -1,0 +1,279 @@
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   background: url('./../public/images/GIF_badge_background.svg');
+   background-size: cover;
+ }
+
+ main {
+   flex: 1 0 auto;
+ }
+
+ footer.page-footer {
+     padding: 0;
+     background-color: #ffffff;
+ }
+
+ i.material-icons {
+     font-size: 25px;
+     font-weight: bold;
+ }
+
+ #imgRight {
+   float: right;
+   width: 100px;
+   display: block;
+ }
+
+ #imgLeft {
+   float: left;
+   width: 100px;
+   display: block;
+ }
+
+ @media screen and (max-width: 768px) {
+   #imgRight {
+     float: right;
+     width: 50px;
+     display: block;
+   }
+
+   #imgLeft {
+     float: left;
+     width: 50px;
+     display: block;
+   }
+ }
+
+/*Title Page*/
+.badgeTitle {
+  font-family: 'Anton', sans-serif;
+  font-size: 100px;
+  text-align: center;
+}
+
+h2.badgeQuizQuestion{
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+}
+
+
+img.badgeTitleImg{
+  width: 500px;
+  display: block;
+  margin: auto;
+}
+
+.badgeSubTitle{
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+img.badgeTitleGif {
+  display: block;
+  margin: auto;
+}
+
+.progress {
+  height:30px;
+}
+
+a#startButton {
+  background-color: #26a69a;
+      margin: auto;
+      display: block;
+      margin-top: -88px;
+}
+
+a.waves-effect.waves-light.btn {
+    display: block;
+    margin: auto;
+    width: 100px;
+    padding: 5px;
+    height: 40px;
+}
+
+/* Badge Objectives Box*/
+
+
+/*Badge Steps*/
+h2.badgeStepTitle{
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+div.badgeDescriptionBox {
+  font-family: 'Roboto', sans-serif;
+display: block;
+margin: auto;
+min-width: 300px;
+max-width: 600px;
+max-height: 650px;
+padding: 20px;
+border-radius: 15px 50px;
+background: #26a69a;
+color: white;
+}
+
+div.badgeDescriptionBoxTwo {
+  font-family: 'Roboto', sans-serif;
+display: block;
+margin: auto;
+min-width: 300px;
+max-width: 600px;
+max-height: 650px;
+padding: 20px;
+border-radius: 15px 50px;
+background: #cd5b45;
+color: white;
+}
+
+.badgeMainText {
+  font-size: 17px;
+}
+
+ul:not(.browser-default) li {
+    list-style-image: url('./../public/images/Bullet_Point_Gif_Badge.png');
+}
+
+/*Gif Examples*/
+img#palaceGif{
+  width: 100px;
+}
+
+img#UnderConstruction{
+  width: 292px;
+}
+
+/*What are GIFs*/
+
+.buttonCentre {
+  display: block;
+  margin: auto;
+}
+
+div.quizSuccessMessage {
+  width: 250px;
+  max-height:  125px;
+  padding: 5px;
+  background-color: #26a69a;;
+  vertical-align: middle;
+  border-radius: 5px;
+      color: white;
+}
+
+div.quizErrorMessage {
+  width: 250px;
+  max-height:125px;
+  padding: 5px;
+  background-color: orangered;
+  vertical-align: middle;
+  border-radius: 5px;
+      color: white;
+}
+
+img.badgePhonesGifApps {
+  width: 40%;
+}
+
+/*Carousel*/
+
+.carousel{
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img.ps {
+   max-width: 100%;
+}
+
+.carousel-inner>.active, .carousel-inner>.next, .carousel-inner>.prev { 
+   width: 102.5%!important;
+}
+
+.carousel-inner {
+    background: #98d5cf;
+}
+
+a.left.carousel-control, a.right.carousel-control {
+    background: #98d5cf;
+}
+
+/*@media screen and (min-width: 768px) {
+  .carousel-caption {
+    top: 0%;
+    right: 20%;
+        left: 82%;
+        padding-bottom: 30px;
+        width: 16%;
+        height: 100%;
+        background: #98d5cf;;
+}
+}*/
+
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    /* background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%); */
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    /* background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,.5))); */
+    /* background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+
+a.left.carousel-control, a.right.carousel-control {
+    /* background: #98D5D5; */
+    min-height: 90px;
+        max-height: 500px;
+}
+
+div.correctCaption {
+max-width: 700px;
+min-width: 300px;
+min-height: 100px;
+max-height: 500px;
+background-color: #26a69a;
+display: block;
+margin: auto;
+color: white;
+}
+
+p.dynamicCaption {
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+}
+
+h3.dynamicStep {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/*.carousel {
+max-height: 500px;
+}
+*/
+
+.carousel-control {
+    position: absolute;
+   display: block;
+   margin: auto;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    /* opacity: .5; */
+    height: 0px;
+  }
+
+  .imgCaption{
+    width: 25%;
+    border-radius: 15px;
+  }

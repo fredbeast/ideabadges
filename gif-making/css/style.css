@@ -1,0 +1,390 @@
+/*Materialize.CSS for Footer*/
+.hidden{
+  display: none;
+}
+
+.view {
+  display: "block";
+}
+
+body {
+ display: flex;
+ min-height: 100vh;
+ flex-direction: column;
+ background: url('./../public/images/GIF_badge_background.svg');
+ background-size: cover;
+}
+
+#imgRight {
+ float: right;
+ width: 100px;
+ display: block;
+}
+
+#imgLeft {
+ float: left;
+ width: 100px;
+ display: block;
+}
+
+@media screen and (max-width: 768px) {
+  #imgRight {
+    float: right;
+    width: 50px;
+    display: block;
+  }
+
+  #imgLeft {
+    float: left;
+    width: 50px;
+    display: block;
+  }
+}
+
+main {
+ flex: 1 0 auto;
+}
+
+footer.page-footer {
+ padding: 0;
+ background-color: #ffffff;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+}
+
+/*Title Page*/
+.badgeTitle {
+  font-family: 'Anton', sans-serif;
+  font-size: 100px;
+  text-align: center;
+}
+
+img.badgeTitleImg{
+  width: 45%;
+  display: block;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  img.badgeTitleImg {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+  img#bananaGif{
+    width: 10%;
+    display: block;
+    margin: auto;
+  }
+
+  img.fire{
+    width: 5%;
+    display: block;
+    margin: auto;
+  }
+}
+
+i.material-icons {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.badgeSubTitle{
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+img.badgeTitleGif {
+  display: block;
+  margin: auto;
+}
+
+.progress {
+  height:30px;
+}
+
+a#startButton {
+ /* background-color: #26a69a;*/
+ margin: auto;
+ display: block;
+ margin-top: -88px;
+}
+
+a.btn {
+  display: block;
+  margin: auto;
+  width: 100px;
+  padding: 5px;
+  height: 40px;
+}
+
+waves-effect.waves-coral .waves-ripple {
+  background-color: rgba(255,127,80, 0.75);
+  display: block;
+  margin: auto;
+  width: 100px;
+  padding: 5px;
+  height: 40px;
+}
+
+/* Badge Objectives Box*/
+
+img.bpGIF {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+img.gifCharacter{
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+/*Badge Steps*/
+h2.badgeStepTitle{
+  font-family: 'Anton', sans-serif;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+h2.badgeEndTitle{
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+div.badgeDescriptionBox {
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  margin: auto;
+  min-width: 300px;
+  max-width: 600px;
+  max-height: 2000px;
+  padding: 30px;
+  border-radius: 15px 50px;
+  background: #26a69a;
+  color: white;
+}
+
+div.badgeDescriptionBoxLast {
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  margin: auto;
+  min-width: 300px;
+  max-width: 600px;
+  max-height: 2000px;
+  padding: 30px;
+  border-radius: 15px 50px;
+  background: #26a69a;
+  color: white;
+}
+
+.badgeMainText {
+  font-size: 17px;
+}
+
+ul:not(.browser-default) li {
+  list-style-image: url('./../public/images/Bullet_Point_Gif_Badge.png');
+  list-style-position: outside;
+  margin-left: 30px;
+}
+
+/*Gif Examples*/
+
+img.iGif{
+  width: 100%;
+}
+
+img#bananaGif{
+  width: 50%;
+}
+
+img#palaceGif{
+  width: 50%;
+}
+
+img#palaceGif2{
+  width: 25%;
+  margin-top: -100px;
+  padding-bottom: 80px;
+}
+
+img#palaceGif4{
+  width: 15%;
+  margin-top: -100px;
+  padding-bottom: 80px;
+}
+
+img#palaceGif3{
+  width: 100%;
+}
+
+img#palaceGif5{
+  width: 15%;
+}
+
+img#palaceGif6{
+  width: 50%;
+  margin-top: -100px;
+  padding-bottom: 80px;
+}
+/*iframe{
+  width: 100%;
+  }*/
+
+  @media screen and (max-width: 768px) {
+  div#gif4, div#gif5, div#gif6, div#gif11, div#gif14, div#gif15, div#gif16, div#gif20, div#gif22{
+    display: none;
+  }
+
+  div#gif12{
+    margin-left: 50px;
+  }
+
+}
+
+  img#UnderConstruction{
+    width: 35%;
+    display: block;
+    margin: auto;
+  }
+
+  img.Corgi{
+    width: 40%;
+  }
+
+  img.smallGifs{
+    width: 50%;
+  }
+
+  img.fire{
+    width: 15%;
+    display: block;
+    margin: auto;
+  }
+
+  /*Under the bonnet*/
+
+  /*What are GIFs*/
+
+  .buttonCentre {
+    display: block;
+    margin: auto;
+  }
+
+  p.infoBox.center-align {
+    width: 50%;
+    background: coral;
+    color: white;
+    padding: 10px;
+    border-radius: 15px 50px;
+    display: block;
+    margin: auto;
+  }
+
+  div.quizSuccessMessage {
+    width: 375px;
+/*    min-height: 125px;*/
+    max-height:  500px;
+    padding: 10px;
+    background-color: #26a69a;
+    vertical-align: middle;
+    border-radius: 5px;
+    color: white;
+  }
+
+  div.quizErrorMessage {
+    width: 375px;
+    /*min-height: 125px;*/
+    max-height:500px;
+    padding: 10px;
+    background-color: orangered;
+    vertical-align: middle;
+    border-radius: 5px;
+    color: white;
+  }
+
+  #playGif, #playJiff {
+    font-size: 50px;
+  }
+
+  img.gifImg {
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
+
+  img.WindowsPhone {
+    width: 53%;
+  }
+
+  img.badgePhonesGifApps {
+    width: 60%;
+  }
+
+  @media screen and (max-width: 768px) {
+    img.WindowsPhone {
+      width: 100%;
+    }
+
+    img.badgePhonesGifApps {
+      width: 100%;
+    }
+  }
+
+  /*Carousel*/
+  
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img.ps {
+    max-width: 20%;
+  }
+
+  .carousel-inner>.active, .carousel-inner>.next, .carousel-inner>.prev { 
+   width: 102.5%!important;
+ }
+
+ .carousel-inner {
+  background: #98d5cf;
+}
+
+a.left.carousel-control, a.right.carousel-control {
+  background: #98d5cf;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-caption {
+    top: 15%;
+    right: 20%;
+    left: 65%;
+    padding-bottom: 30px;
+    width: 16%;
+    height: 100%;
+    background: #98d5cf;
+  }
+}
+
+.carousel {
+  min-height: 200px;
+}
+
+.slide {
+  min-height: 100px;
+}
+
+/*Step 24*/
+
+img.imgGif{
+  width: 60%;
+}
+
+img.imgGif2{
+  width: 60%;
+}
