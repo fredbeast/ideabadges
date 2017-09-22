@@ -1,0 +1,679 @@
+/* Purple color rgb(200,67,120) */
+
+#gater,
+#logoIdea {
+    display: block;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+
+@media (min-width: 992px) {
+    #gater {
+        left: 0;
+        width: 85px;
+        height: 85px;
+    }
+
+    #logoIdea {
+        right: 0;
+        width: 100px;
+        height: 115px;
+    }
+}
+
+@media (max-width: 991px) {
+    #gater {
+        left: 0;
+        width: 75px;
+        height: 75px;
+    }
+
+    #logoIdea {
+        right: 0;
+        width: 85px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    #gater {
+        left: 0;
+        width: 50px;
+        height: 50px;
+    }
+
+    #logoIdea {
+        right: 0;
+        width: 50px;
+        height: 58px;
+    }
+}
+
+@media (max-width: 568px) {
+    #logoIdea, #gater {
+        display: none;
+    }
+}
+
+.progress {
+    background-color: rgb(200,67,120);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+}
+
+.progress-bar {
+    background-color: rgba(0,0,0,0.26);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 1px;
+}
+
+.progress-bar > div {
+    background-color: #fff;
+    position: relative;
+    width: 0;
+    height: 100%;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: opacity 250ms ease-out;
+    transition: opacity 250ms ease-out;
+}
+
+.question-panel {
+    background-color: rgb(200,67,120);
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    width: 460px;
+    height: 100%;
+    z-index: -1000;
+    -webkit-transform: translate3d(-100%, 0px, 0px);
+    transform: translate3d(-100%, 0px, 0px);
+    pointer-events: none;
+    will-change: transform;
+    backface-visibility: hidden;
+}
+
+.question-panel_wrapper {
+    position: relative;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.question-panel_wrapper p {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.question-panel_wrapper ul {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    padding: 0 0 0 15px;
+}
+
+.question-panel_wrapper ul li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.question-panel_wrapper .block {
+    padding-bottom: 100px;
+}
+
+@media(max-width: 768px) {
+    .question-panel_wrapper p {
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+    .question-panel_wrapper ul {
+        font-size: 1em;
+    }
+}
+
+@media(max-width: 667px) {
+    .question-panel {
+        width: 350px;
+    }
+    .question-panel_wrapper {
+        position: relative;
+        padding: 40px 20px;
+    }
+    .question-panel_wrapper p {
+        font-size: 0.9em;
+    }
+    .question-panel_wrapper ul {
+        font-size: 0.9em;
+    }
+}
+
+.wrapper {
+    background-color: #a5c6c6;
+    background-image: url(../img/WindsorCastle-pink-blur.png);
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
+}
+
+@media(max-width: 667px) {
+    .wrapper {
+        background-image: none;
+    }    
+}
+
+.steps {
+    position: relative;
+    margin: 0 auto;
+    max-width: 850px;
+    height: 100%;
+}
+
+.step-1,
+.step-2,
+.step-3,
+.step-4,
+.step-5,
+.step-6,
+.step-7,
+.step-8,
+.step-9,
+.step-10 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    visibility: hidden;
+}
+
+.step-9 {
+    padding-top: 50px;
+}
+
+.info {
+    background-color: rgb(200,67,120);
+    box-shadow: inset 0px 1px 0px #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    z-index: 2;
+}
+
+#info {
+    background-color: rgb(148, 50, 89);
+    border-top-right-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 32px;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+
+#info:hover, #info:focus {
+    background-color: #17283F;
+}
+
+#info > ul {
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#info > ul > li {
+    line-height: 60px;
+    width: 100%;
+    height: 100%;
+}
+
+.info-content {
+    color: #fff;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 20px 60px;
+    z-index: 1;
+}
+
+.info-content p {
+    color: #fff;
+    margin: 0;
+    font-size: 1.3em;
+}
+
+.info-content p:not(p:last-child) {
+    margin: 0 0 10px 0;
+}
+
+.info-btn-next,
+.forum-btn-next {
+    position: absolute;
+    top: -50px;
+    right: 0;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+}
+
+.info-btn-next .btn,
+.forum-btn-next .btn {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    line-height: 50px;
+}
+
+@media (max-width: 800px) {
+    .info-content {
+        padding: 15px 15px;
+    }
+    .info-content p {
+        font-size: 1em;
+    }
+    #info {
+        font-size: 24px;
+        top: -40px;
+        width: 40px;
+        height: 40px;
+    }
+    #info > ul > li {
+        line-height: 40px;
+    }
+}
+
+@media(max-width: 667px) {
+    .info-content {
+        padding: 10px;
+    }
+    .info-content p {
+        font-size: 0.9em;
+    }
+    .info-btn-next,
+    .forum-btn-next {
+        top: -40px;
+        width: 100px;
+        height: 40px;
+    }
+    .info-btn-next .btn,
+    .forum-btn-next .btn {
+        line-height: 40px;
+    }
+}
+
+.character {
+    position: absolute;
+    z-index: 2;
+    bottom: -100px;
+    right: -400px;
+    pointer-events: none;
+    height: 600px;
+}
+
+@media (max-width: 885px) {
+  .character {
+        bottom: -100px;
+        right: -450px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 660px) {
+  .character {
+        visibility: hidden;
+    }
+}
+
+#guard {
+    overflow: visible;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    height: 100%;
+    pointer-events: none;
+}
+
+
+.theme-position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 400px;
+}
+
+.theme-position-step {
+    top: 0;
+    padding: 0 !important;
+    max-width: 100% !important;
+}
+
+.theme-position-step .step-1,
+.theme-position-step .step-2,
+.theme-position-step .step-3,
+.theme-position-step .step-4,
+.theme-position-step .step-5 {
+    height: 100%;
+}
+
+.theme-finish {
+    background-color: #4F4A77;
+    position: relative;
+    margin-bottom: 30px;
+    width: 850px;
+    height: 400px;
+}
+
+.theme-finish-hero {
+    background-image: url(../img/starry-night.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.theme-finish-header {
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    padding: 0 25px;
+    width: 100%;
+}
+
+.theme-finish-logo {
+    color: rgb(200,67,120);
+    line-height: 50px;
+    font-family: 'Gotham HTF';
+    font-weight: 700;
+}
+
+.theme-finish-nav {
+    display: block;
+    float: right;
+}
+
+.theme-finish-nav > ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.theme-finish-nav > ul > li {
+    display: inline-block;
+    float: left;
+    line-height: 50px;
+    margin-left: 20px;
+}
+
+.theme-finish-nav > ul > li > a {
+    color: #fff;
+}
+
+.theme-finish-content {
+    display: table;
+    position: relative;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 450px;
+    height: 100%;
+}
+
+.theme-finish-content_middle {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+    text-align: center;
+}
+
+.theme-finish-content_middle > h1 {
+    text-shadow: 0px 2px 1px #000;
+    font-family: 'Amatic';
+    margin-bottom: 10px;
+    font-size: 72px;
+}
+
+.theme-finish-btn {
+    background-color: transparent;
+    border: 2px solid #fff !important;
+    border-radius: 50px;
+    padding: 10px 40px;
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.theme-finish-btn:hover, .theme-finish-btn:focus {
+    background-color: #fff;
+    color: #000;
+}
+
+
+.btn-rounded {
+    background-color: transparent;
+    border: 2px solid #fff !important;
+    border-radius: 50px;
+    padding: 10px 40px;
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.btn-rounded:hover, .btn-rounded:focus {
+    background-color: #fff;
+    color: #000;
+}
+
+.theme {
+    background-color: #4F4A77;
+    width: 96%; /*850*/
+    margin: 0 2% 30px 2%;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%) scale(1);
+    transform: translateY(-50%) scale(1);
+}
+
+@media (max-width: 667px) {
+    .theme {
+        height: 225px;
+        width: 80%;
+        margin: 0 10% 0px 10%;
+    }
+    .theme-content {
+        max-width: 70% !important;
+        height: 150px !important;
+    }
+    .btn-rounded {
+        padding: 8px 30px;
+        font-size: 18px;
+    }
+}
+
+.theme-hero {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.theme-header {
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+    padding: 0 25px;
+    width: 100%;
+}
+
+.theme-logo {
+    color: rgb(200,67,120);
+    line-height: 50px;
+    font-family: 'Gotham HTF';
+    font-weight: 700;
+}
+
+.theme-nav {
+    display: block;
+    float: right;
+}
+
+.theme-nav > ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.theme-nav > ul > li {
+    display: inline-block;
+    float: left;
+    line-height: 50px;
+    margin-left: 20px;
+}
+
+.theme-nav > ul > li > a {
+    color: #fff;
+}
+
+.theme-content {
+    display: table;
+    position: relative;
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 450px;
+    height: 350px;
+}
+
+.theme-content_middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.theme-content_middle > h1 {
+    margin-bottom: 10px;
+}
+
+.theme-btn {
+    background-color: transparent;
+    border: 2px solid #fff !important;
+    border-radius: 50px;
+    padding: 10px 40px;
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.theme-btn:hover, .theme-btn:focus {
+    background-color: #fff;
+    color: #000;
+}
+
+@media (max-width: 667px) {
+    .theme-header {
+        padding: 0 20px;
+    }
+    .theme-logo {
+        line-height: 40px;
+    }
+    .theme-nav > ul > li {
+        line-height: 40px;
+        margin-left: 15px;
+    }
+    .theme-position {
+        -webkit-transform: translate(-50%, -50%) scale(0.4);
+        transform: translate(-50%, -50%) scale(0.4);
+    }
+}
+
+.resize {
+    background-color: rgb(200,67,120);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1000;
+}
+
+.resize-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.resize-text p {
+    color: #fff;
+    margin-bottom: 0;
+    font-family: 'Gotham HTF';
+    font-weight:  700;
+    font-size: 2em;
+}
+
+@media(max-width: 667px) {
+    .resize-text p {
+        font-size: 1em;
+    }    
+}
+
+@media only screen and (orientation: portrait) {
+    .no-touchevents .resize {
+        background-color: rgb(200, 67, 120);
+        display: block;
+        z-index: 1000;
+    }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    .resize {
+        background-color: rgb(200, 67, 120);
+        display: block;
+        z-index: 1000;
+    }
+}
+
+/* Landscape */
+@media only screen and (max-device-width: 736px) and (orientation: landscape) {
+      .monitor {
+          display: none;
+      }
+}

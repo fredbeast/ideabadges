@@ -1,0 +1,46 @@
+.intro {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: 10;
+}
+
+.intro h1 {
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    margin-bottom: 0px;
+    font-family: 'Amatic';
+    font-size: 5em;
+}
+
+.intro p {
+    font-family: 'Gotham HTF';
+    font-weight:  700;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 667px) {
+    .intro h1 {
+        font-size: 2.5em;
+    }
+    .intro p {
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .monitor {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .intro h1 {
+        font-size: 2em;
+    }
+    .intro p {
+        font-size: 12px;
+        font-weight: 700;
+    }
+}

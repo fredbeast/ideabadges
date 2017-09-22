@@ -1,0 +1,99 @@
+.step-4 {
+    height: 100%;
+}
+
+.device {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);transform: translateY(-50%);
+}
+
+.device-wrapper {
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.device-content {
+    width: 100%;
+    height: 120px;
+    position: relative;
+}
+
+.device-content_bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.device-content_bottom svg {
+    margin-bottom: 10px;
+}
+
+.device-content h3 {
+    color: #383838;
+   margin: 0 0 10px 0;
+}
+
+.device-input input,
+.device-input span {
+    float: left;
+}
+
+.device-input > input {
+    text-align: center;
+    width: 45%;
+}
+
+.device-input span {
+    padding: 5px 0;
+    width: 10%;
+}
+
+.arrows {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);transform: translateY(-50%);
+    width: 100%;
+    height: 30px;
+}
+
+.arrow-left,
+.arrow-right {
+    background-color: #383838;
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+.arrow-left {
+    left: 0;
+}
+
+.arrow-right {
+    right: 0;
+}
+
+.no-touchevents .arrow-left:hover,
+.no-touchevents .arrow-right:hover {
+    background-color: #c84378;
+}
+
+@media(max-width: 768px) {
+    .arrows {
+        display: block;
+    }  
+}

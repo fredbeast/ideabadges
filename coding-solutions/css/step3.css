@@ -1,0 +1,69 @@
+.step-3 {
+    height: 100%;
+}
+
+.contentW3c {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);transform: translateY(-50%);
+}
+
+.contentW3c-header {
+    margin: 0 15px;
+}
+
+.contentW3c-header_list {
+    list-style-type: none;
+    margin: 0 0 20px 0;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.contentW3c-header_list li {
+    display: inline-block;
+}
+
+.contentW3c-header_list li:nth-child(1) {
+    float: left;
+    width: 81%;
+}
+
+.contentW3c-header_list li:nth-child(2) {
+    float: right;
+}
+
+.contentW3c-header_list li:nth-child(2) > .btn {
+    display: block;
+}
+
+@media(max-width: 765px) {
+    .contentW3c-header_list li {
+        display: block;
+    }
+    .contentW3c-header_list li:nth-child(1) {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .contentW3c-header_list li:nth-child(2) {
+        float: none;
+    }
+    .contentW3c-header_list li:nth-child(2) > .btn {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media(max-width: 600px) {
+    .contentW3c {
+        margin: 5% 0 0 0;
+    }
+    .contentW3c-header {
+        padding: 10px;
+        margin: 0 10px;
+    }
+}
