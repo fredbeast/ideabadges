@@ -1,5 +1,10 @@
-<?php 
-$radioVal = $_POST["gifDefinition"];
+<?php
+if(isset($_POST["gifDefinition"]))  {
+    $radioVal = $_POST["gifDefinition"];
+}
+else {
+    $radioVal = null;
+}
 $display = 0;
 
 
@@ -73,7 +78,7 @@ if($radioVal == "gif"){
               </div>
             </div>
             </div>
-    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
+    <form method="post" action="">
       <div class="row">
         <p class="col s12 center-align">
           <input name="gifDefinition" type="radio" id="test1" value="gif"/>

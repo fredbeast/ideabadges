@@ -6,7 +6,7 @@ $(function(){
     $('.badgeTitlePage').addClass("animated zoomOut");
     $('.badgeTitlePage').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', loadObjectives);
     function loadObjectives() {
-      $(location).attr('href', 'badge/step_1.php');
+      $(location).attr('href', './step_1.php');
     }
   });
 
@@ -17,7 +17,7 @@ $(function(){
   $('#step2Button').addClass("animated bounceOutRight");
   $("#step2Button").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', loadStep2);
   function loadStep2(){
-    $(location).attr('href', 'step_2.php');
+    $(location).attr('href', './step_2.php');
     $(location).fadeIn(1000);
   }
 });
@@ -28,7 +28,7 @@ $(function(){
   $('#step3Button').addClass("animated bounceOutRight");
   $("#step3Button").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', loadStep3);
   function loadStep3(){
-    $(location).attr('href', 'step_3.php');
+    $(location).attr('href', './step_3.php');
     $(location).fadeIn(1000);
   }
 });
@@ -39,7 +39,7 @@ $(function(){
   $('#step4Button').addClass("animated bounceOutRight");
   $("#step4Button").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', loadStep4);
   function loadStep4(){
-    $(location).attr('href', 'step_4.php');
+    $(location).attr('href', './step_4.php');
     $(location).fadeIn(1000);
   }
 });
@@ -50,7 +50,7 @@ $(function(){
   $('#step5Button').addClass("animated bounceOutRight");
   $("#step5Button").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', loadStep5);
   function loadStep5(){
-    $(location).attr('href', 'step_5.php');
+    $(location).attr('href', './step_5.php');
     $(location).fadeIn(1000);
   }
 });
@@ -61,7 +61,7 @@ $(function(){
   $('#step6Button').addClass("animated bounceOutRight");
   $("#step6Button").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', loadStep6);
   function loadStep6(){
-    $(location).attr('href', 'step_6.php');
+    $(location).attr('href', './step_6.php');
     $(location).fadeIn(1000);
   }
 });
@@ -72,7 +72,7 @@ $(function(){
   $('#step7Button').addClass("animated bounceOutRight");
   $("#step7Button").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimaionend animationend', loadStep7);
   function loadStep7(){
-    $(location).attr('href', 'step_7.php');
+    $(location).attr('href', './step_7.php');
     $(location).fadeIn(1000);
   }
 });
@@ -83,7 +83,7 @@ $(function(){
   $('#step8Button').addClass("animated bounceOutRight");
   $("#step8Button").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', loadStep8);
   function loadStep8(){
-    $(location).attr('href', 'step_8.php');
+    $(location).attr('href', './step_8.php');
     $(location).fadeIn(1000);
   }
 });
@@ -94,7 +94,7 @@ $(function(){
   $('#step9Button').addClass("animated bounceOutRight");
   $("#step9Button").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', loadStep9);
   function loadStep9(){
-    $(location).attr('href', 'step_9.php');
+    $(location).attr('href', './step_9.php');
     $(location).fadeIn(1000);
   }
 });
@@ -105,7 +105,7 @@ $(function(){
   $('#step10Button').addClass("animated bounceOutRight");
   $("#step10Button").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', loadStep10);
   function loadStep10(){
-    $(location).attr('href', 'step_10.php');
+    $(location).attr('href', './step_10.php');
     $(location).fadeIn(1000);
   }
 });
@@ -116,7 +116,7 @@ $(function(){
   $('#step11Button').addClass("animated bounceOutRight");
   $("#step11Button").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', loadStep11);
   function loadStep11(){
-    $(location).attr('href', 'step_11.php');
+    $(location).attr('href', './step_11.php');
     $(location).fadeIn(1000);
   }
 });
@@ -127,7 +127,7 @@ $(function(){
   $('#step16Button').addClass("bounceOutRight");
   $("#step16Button").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', loadStep16);
   function loadStep16(){
-    $(location).attr('href', 'step_16.php');
+    $(location).attr('href', './step_16.php');
     $(location).fadeIn(1000);
   }
 });
@@ -138,7 +138,7 @@ $(function(){
    $('#step17Button').addClass("bounceOutRight");
    $("#step17Button").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', loadStep17);
    function loadStep17(){
-     $(location).attr('href', 'step_17.php');
+     $(location).attr('href', './step_17.php');
      $(location).fadeIn(1000);
    }
  });
@@ -149,7 +149,7 @@ $(function(){
     $('#step23Button').addClass("bounceOutRight");
     $("#step23Button").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', loadStep23);
     function loadStep23(){
-      $(location).attr('href', 'step_23.php');
+      $(location).attr('href', './step_23.php');
       $(location).fadeIn(1000);
     }
   });
@@ -160,7 +160,7 @@ $(function(){
      $('#step24Button').addClass("bounceOutRight");
      $("#step24Button").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', loadStep24);
      function loadStep24(){
-       $(location).attr('href', 'step_24.php');
+       $(location).attr('href', './step_24.php');
        $(location).fadeIn(1000);
      }
    });

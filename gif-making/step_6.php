@@ -1,5 +1,10 @@
-<?php 
-$radioVal = $_POST["gifDefinition"];
+<?php
+if(isset($_POST["gifDefinition"]))  {
+    $radioVal = $_POST["gifDefinition"];
+}
+else {
+    $radioVal = null;
+}
 $display = 0;
 
 
@@ -46,7 +51,7 @@ if($radioVal == "Great Internet Fun"){
   <div class="container main">
     <h2 class="badgeStepTitle">What does GIF stand for?</h2>
     <p class="infoBox center-align">Select what you think is the right option and click submit. The correct answer will display the next button.</p>
-    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
+    <form method="post" action="">
       <div class="row">
         <p class="col s12 center-align answerOption">
           <input name="gifDefinition" type="radio" id="test1" value="Great Internet Fun"/>
