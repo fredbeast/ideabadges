@@ -4,16 +4,6 @@ require '../vendor/autoload.php';
 
 session_start();
 
-if(!isset($_SESSION['oauth2_access_token']) && !isset($_SESSION['oauth2_id_token'])) { 
-  header('Location: http://idea-gif-making-badge.azurewebsites.net/login.php');
-    // header('Location: http://localhost:8000/login.php');
-  exit;
-}
-
-error_reporting(E_ALL);
-ini_set("display_errors", 1);
-ini_set("session.gc_maxlifetime", "3600");
-ini_set("session.cookie_lifetime", "3600");
 ?>
 
 <!DOCTYPE html>

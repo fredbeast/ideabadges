@@ -26,6 +26,6 @@ if($_SESSION['authorised'] == 5) {
     header("Location: logout.php?return_url=$return_url");
 }
 else {
-    unset($_SESSION['authorised']);
-    header('Location: start.php');
+    $_SESSION['authorised'] = 0;
+    header('Location: login.php');
 }

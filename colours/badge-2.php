@@ -9,6 +9,18 @@ if($_SESSION['authorised'] < 3){
 }
 $_SESSION['authorised'] = 3;
 
+$client = new \GuzzleHttp\Client();
+
+$res = $client->request('POST', 'https://idea.org.uk/api/progress', [
+    'http_errors' => false,
+    'headers' => [
+        'Authorization' => 'Bearer ' . $_SESSION['oauth2_access_token']
+    ],
+    'json' => [
+        'progress' => 2 // Badge start
+    ]
+]);
+
 ?>
 
 <!DOCTYPE html>

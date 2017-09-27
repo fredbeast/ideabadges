@@ -16,7 +16,7 @@
     Virtual Reality badge <a href="virtual/start.php">Click here!</a>
 </p>
 <p>
-    Maker Spaces badge <a href="spaces/start.php">Click here!</a>
+    GIF Making badge <a href="gif-making/login.php">Click here!</a>
 </p>
 </body>
 </html>

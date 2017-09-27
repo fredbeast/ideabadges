@@ -13,11 +13,12 @@ $res = $client->request('GET', 'https://idea.org.uk/api/user', [
 ]);
 
 $user = json_decode($res->getBody());
-
-if($_SESSION['authorised'] < 1){
-    header('Location: start.php');
+if (isset($_SESSION['authorised'])){
+    header('Location: progress.php');
 }
-$_SESSION['authorised'] = 1;
+else {
+    $_SESSION['authorised'] = 1;
+}
 
 ?>
 
