@@ -1,4 +1,8 @@
 <?php
+require '../vendor/autoload.php';
+
+session_start();
+
 if(isset($_POST["gifDefinition"]))  {
     $radioVal = $_POST["gifDefinition"];
 }

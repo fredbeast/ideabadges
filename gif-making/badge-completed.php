@@ -3,9 +3,7 @@
 require '../vendor/autoload.php';
 
 session_start();
-if($_SESSION['authorised'] == 5) {
 
-    $_SESSION['authorised'] = 0;
 
     $client = new \GuzzleHttp\Client();
 
@@ -24,8 +22,3 @@ if($_SESSION['authorised'] == 5) {
     $return_url = $response->redirect_uri;
 
     header("Location: logout.php?return_url=$return_url");
-}
-else {
-    $_SESSION['authorised'] = 0;
-    header('Location: login.php');
-}
