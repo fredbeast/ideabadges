@@ -18,5 +18,8 @@
 <p>
     GIF Making badge <a href="gif-making/login.php">Click here!</a>
 </p>
+<p>
+    Coding Solutions badge <a href="coding-solutions/login.php">Click here!</a>
+</p>
 </body>
 </html>

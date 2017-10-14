@@ -1,50 +1,45 @@
 <?php
-require '../../vendor/autoload.php';
-use GuzzleHttp\Client;
+
+require '../../../vendor/autoload.php';
 
 session_start();
 
-  //Declaring environment variables
-  $client_id = getenv( 'CODING_SOLUTIONS_ID' );
-  $client_secret = getenv( 'CODING_SOLUTIONS_CLIENT_SECRET' );
-  $state = $_GET['state'];
-  $code = $_GET['code'];
+$state = $_GET['state'];
+$code = $_GET['code'];
 
-    if (!isset($code)) {
-    exit('Failed to get an authorization code');
+if (isset($_GET['error']))
+{
+    if( $_GET['error'] === 'login_required' || $_GET['error'] === 'consent_required' || $_GET['error'] === 'interaction_required'  )
+    {
+        header("Location: https://idea.org.uk/");
+        exit();
     }
+}
 
-      if (isset($state) && $state !== $_SESSION['oauth2_state']) { 
-      // Check the state is valid
-        session_destroy();
-        exit('OAuth2 invalid state!');
-      }
+if (!isset($code)) {
+    exit('Failed to get an authorization code');
+}
 
-      $client = new \GuzzleHttp\Client();
-      $res = $client->request('POST', 'https://idea.eu.auth0.com/oauth/token', [
-        'form_params' => [
-        'client_id' => $client_id,
-        'client_secret' => $client_secret,
-        'redirect_uri' => 'https://idea-coding-solutions.herokuapp.com/',
+if (isset($state) && $state !== $_SESSION['oauth2_state']) {
+    session_destroy();
+    exit('This badge is currently under maintenance, please try again in 10 minutes.');
+}
+
+$client = new \GuzzleHttp\Client();
+
+$res = $client->request('POST', 'https://idea.eu.auth0.com/oauth/token', [
+    'form_params' => [
+        'client_id' => getenv('CS_BADGE_CLIENT_ID'),
+        'client_secret' => getenv('CS_BADGE_CLIENT_SECRET'),
+        'redirect_uri' => getenv('CS_BADGE_REDIRECT_URI'),
         'code' => $code,
         'grant_type' => 'authorization_code'
-        ]
-        ]);
-      
-      //Decode JSON response
-      $json = json_decode($res->getBody());
-      $_SESSION['oauth2_access_token'] = $json->access_token;
-      $_SESSION['oauth2_id_token'] = $json->id_token;
+    ]
+]);
 
-      $client2 = new \GuzzleHttp\Client();
-      $res2 = $client2->request('GET', 'https://idea.org.uk/api/user', [
-            'headers' => [
-              'Authorization' => 'Bearer ' . $_SESSION['oauth2_access_token']
-            ]
-        ]);
-      print_r($_SESSION);
+$json = json_decode($res->getBody());
 
-      header("Location: https://idea-coding-solutions.herokuapp.com/");
+$_SESSION['oauth2_access_token'] = $json->access_token;
+$_SESSION['oauth2_id_token'] = $json->id_token;
 
-      exit;
-?>
+header('Location: ../../index.php');

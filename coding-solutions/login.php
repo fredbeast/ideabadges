@@ -1,21 +1,19 @@
 <?php
+
 session_start();
 
-  $client_id =getenv( 'CODING_SOLUTIONS_ID' );
-  $state = hash('sha256', microtime(true) . rand()); // Generate a random state
-  $_SESSION['oauth2_state'] = $state; // Save the state
+$state = hash('sha256', microtime(true) . rand());
+$_SESSION['oauth2_state'] = $state;
 
-    $params = [
-    'response_type' => 'code', 
-    'client_id' => $client_id, 
-    'redirect_uri' => 'https://idea-coding-solutions.herokuapp.com/auth/callback/login.php',
+$params = [
+    'response_type' => 'code',
+    'client_id' => getenv(  'CS_BADGE_CLIENT_ID'),
+    'redirect_uri' => getenv('CS_BADGE_REDIRECT_URI'),
     'scope' => 'openid',
-    'state' => $state
-    ];
+    'state' => $state,
+    'prompt' => 'none'
+];
 
-    $authUrl = 'https://idea.eu.auth0.com/i/oauth2/authorize?' . http_build_query($params);
+$authUrl = 'https://idea.eu.auth0.com/authorize?' . http_build_query($params);
 
-  header("Location: $authUrl"); // Redirect to Auth0
-
-exit;
-?>
+header("Location: $authUrl");

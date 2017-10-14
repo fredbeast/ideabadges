@@ -1,6 +1,6 @@
 <?php
 
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 
 session_start();
 
@@ -85,7 +85,7 @@ if(!isset($_SESSION['oauth2_access_token']) && !isset($_SESSION['oauth2_id_token
         
         <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
                 
-        <script src="js/scripts.min.js"></script>
+        <script src="js/scripts.js"></script>
         
         <script src="js/app.min.js"></script>
 

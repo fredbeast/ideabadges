@@ -2082,11 +2082,12 @@ $(function () {
     /////////////////////////////////////////////////////////////////////// iFrame
     
     var checkVa = "http://stackoverflow.com/questions/65034/remove-border-from-iframe",
+        checkVa2 = "https://stackoverflow.com/questions/65034/remove-border-from-iframe",
         vCIframe = "<p>Well done, using forums like this is a good way of getting help from the community on things that are complicated or when you need some help understanding a problem.</p><p>As you develop your understanding, and try more things yourself, you will be able to start posting your solutions so that you can help others.</p>";
 
     var iframeB = debounce(function () {
         
-        if ($('#iframeBlock').val() === checkVa) {
+        if ($('#iframeBlock').val() === checkVa2 || $('#iframeBlock').val() === checkVa) {
             $('#infoContent').empty().append(vCIframe);
             TweenMax.to('#iframeBlock', 0.3, {
                 backgroundColor: '#cecece',
