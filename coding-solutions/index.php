@@ -3,20 +3,8 @@
 require '../vendor/autoload.php';
 
 session_start();
-
-if(!isset($_SESSION['oauth2_access_token']) && !isset($_SESSION['oauth2_id_token'])) { 
-    header('Location: https://idea-coding-solutions.herokuapp.com/login.php');
-    exit;
-}
-
-
-    error_reporting(E_ALL);
-    ini_set("display_errors", 1);
 ?>
 
-<script>
- localStorage.setItem('oauth2_access_token', '<?php echo $_SESSION['oauth2_access_token'];?>');
-</script>
 
 <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
