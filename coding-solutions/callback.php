@@ -42,4 +42,4 @@ $json = json_decode($res->getBody());
 $_SESSION['oauth2_access_token'] = $json->access_token;
 $_SESSION['oauth2_id_token'] = $json->id_token;
 
-header('Location: ../../index.php');
+header('Location: index.php');
