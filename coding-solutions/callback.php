@@ -20,10 +20,6 @@ if (!isset($code)) {
     exit('Failed to get an authorization code');
 }
 
-if (isset($state) && $state !== $_SESSION['oauth2_state']) {
-    session_destroy();
-    exit('This badge is currently under maintenance, please try again in 10 minutes.');
-}
 
 $client = new \GuzzleHttp\Client();
 
