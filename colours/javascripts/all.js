@@ -610,13 +610,13 @@ $(document).ready(function () {
     question1score = 0;
     question2score = 0;
     question3score = 0;
-    part1test1arr = ['Hue', 'hue', 'Hues', 'hues', 'hues ', 'hue ', 'Hue ', 'Hues '];
-    part1test2arr = ['saturation', 'Saturation', 'chroma', 'chroma', 'saturation ', 'Saturation '];
-    part1test3arr = ['Lightness', 'Brightness', 'lightness', 'brightness', 'Lightness ', 'lightness '];
+    part1test1arr = ['hue', 'hues'];
+    part1test2arr = ['saturation', 'chroma'];
+    part1test3arr = ['lightness', 'brightness'];
 
 
     $('#part1-test-1btn').click(function () {
-        var value1 = document.getElementById("part1-test-1").value;
+        var value1 = document.getElementById("part1-test-1").value.trim().toLowerCase();
         if ($.inArray(value1, part1test1arr) != -1) {
             question1score = 33;
             $("#part1-test-1wrong").css('display', 'none');
@@ -637,7 +637,7 @@ $(document).ready(function () {
         }
     });
     $('#part1-test-2btn').click(function () {
-        var value2 = document.getElementById("part1-test-2").value;
+        var value2 = document.getElementById("part1-test-2").value.trim().toLowerCase();
         if ($.inArray(value2, part1test2arr) != -1) {
             question2score = 33;
             $('#part1-test-2wrong').css('display', 'none');
@@ -659,7 +659,7 @@ $(document).ready(function () {
 
     });
     $('#part1-test-3btn').click(function () {
-        var value3 = document.getElementById("part1-test-3").value;
+        var value3 = document.getElementById("part1-test-3").value.trim().toLowerCase();
         if ($.inArray(value3, part1test3arr) != -1) {
             question3score = 34;
             $('#part1-test-3wrong').css('display', 'none');
@@ -702,11 +702,11 @@ $("#part1-test-3").keyup(function (event) {
 var progresstotal2 = 0;
 question31 = 0;
 question32 = 0;
-part3test1arr = ['spectrum', 'visible spectrum', 'Spectrum', 'Spectrum ', 'spectrum ', 'Visible Spectrum', 'Visible spectrum', 'Visible spectrum ', 'visible spectrum ', 'Visible Spectrum '];
-part3test2arr = ['colour space', 'Colour space', 'space', 'space ', 'Space ', 'Space', 'Colour Space', 'colour space ', 'Colour space ', 'Colour Space ', 'Colour Spaces', 'Colour Spaces ', 'Colour spaces', 'Colour spaces '];
+part3test1arr = ['spectrum', 'visible spectrum'];
+part3test2arr = ['colour space', 'space', 'colour spaces'];
 
 $('#part3-test-1btn').click(function () {
-    var value1 = document.getElementById("part3-test-1").value;
+    var value1 = document.getElementById("part3-test-1").value.trim().toLowerCase();
     if ($.inArray(value1, part3test1arr) != -1 && question31 < 1) {
         question31 += 1;
         progresstotal2 += 50;
@@ -728,7 +728,7 @@ $('#part3-test-1btn').click(function () {
     }
 });
 $('#part3-test-2btn').click(function () {
-    var value2 = document.getElementById("part3-test-2").value;
+    var value2 = document.getElementById("part3-test-2").value.trim().toLowerCase();
     if ($.inArray(value2, part3test2arr) != -1 && question32 < 1) {
         question32 += 1;
         progresstotal2 += 50;
