@@ -22,7 +22,7 @@ if (!isset($code)) {
 
 if (isset($state) && $state !== $_SESSION['oauth2_state']) {
     session_destroy();
-    exit('OAuth2 invalid state!');
+    exit('This badge is currently under maintenance, please try again in 10 minutes.');
 }
 
 $client = new \GuzzleHttp\Client();

@@ -14,6 +14,10 @@ $params = [
     'prompt' => 'none'
 ];
 
+if (isset($_GET['progress'])){
+    $_SESSION['authorised'] = $_GET['progress'];
+}
+
 $authUrl = 'https://idea.eu.auth0.com/authorize?' . http_build_query($params);
 
 header("Location: $authUrl");

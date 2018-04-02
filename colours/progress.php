@@ -4,7 +4,6 @@ require '../vendor/autoload.php';
 
 session_start();
 
-
 if($_SESSION['authorised'] == 1){
     $_SESSION['authorised'] = 2;
     header('Location: badge-1.php');

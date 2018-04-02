@@ -4,20 +4,22 @@ require '../vendor/autoload.php';
 
 session_start();
 
+if($_SESSION['authorised'] < 5){
+    header('Location: badge-3.php');
+}
+$_SESSION['authorised'] = 5;
+
 $client = new \GuzzleHttp\Client();
-$res = $client->request('GET', 'https://idea.org.uk/api/user', [
+
+$res = $client->request('POST', 'https://idea.org.uk/api/progress', [
     'http_errors' => false,
     'headers' => [
         'Authorization' => 'Bearer ' . $_SESSION['oauth2_access_token']
+    ],
+    'json' => [
+        'progress' => 4 // Badge start
     ]
 ]);
-
-$user = json_decode($res->getBody());
-
-if($_SESSION['authorised'] < 5){
-    header('Location: start.php');
-}
-$_SESSION['authorised'] = 5;
 
 ?>
 
