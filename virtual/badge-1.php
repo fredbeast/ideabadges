@@ -102,9 +102,9 @@ $res = $client->request('POST', 'https://idea.org.uk/api/progress', [
                 <div id="Page16" class="not-yet">
                     <p>The videos can be viewed on your <span> mobile </span> and on Youtube and Facebook. For a more immersive experience, you can <span> dock </span> your mobile phone into a HMD like Samsung’s Gear VR and Google’s Daydream or Cardboard. 360° video, is <span> relatively passive </span> and <span> limited in interaction. </span> </p>
                     <a onclick="return show('Page15','Page16');" class="btn btn-default btn-back hvr-radial-out">BACK</a>
-                    <a onclick="return show('Page17','Page16');" class="btn btn-default btn-next hvr-radial-out">NEXT</a>
+                    <a onclick="return show('Page18','Page16');" class="btn btn-default btn-next hvr-radial-out">NEXT</a>
                 </div>
-
+<!--
                 <div id="Page17" class="not-yet text-center">
                     <p class="subtle">Go ahead and watch the 360 video below to find out even more about world of 360 video!</p>
                     <p style="margin: 20px 0" id="linkreveal"><a target="_blank" href="https://www.youtube.com/embed/oIAPyKoDziY?rel=0">Click here for the video</a></p>
@@ -112,6 +112,7 @@ $res = $client->request('POST', 'https://idea.org.uk/api/progress', [
                     <a onclick="return show('Page16','Page17');" class="btn btn-default btn-back hvr-radial-out">BACK</a>
                     <a onclick="return show('Page18','Page17');" class="btn btn-default btn-next hvr-radial-out reveal" id="linknext">NEXT</a>
                 </div>
+-->
                 <div id="Page18" class="not-yet">
                     <p class="test-info">In general, how immersive is real-time VR?</p>
                     <p class="wrong" id="immersive-wrong-1">Oops! Real-time VR really immersive, it aims to be as transportative as possible. Try again.</p>
@@ -125,7 +126,7 @@ $res = $client->request('POST', 'https://idea.org.uk/api/progress', [
                     </div>
                     <a class="btn btn-default btn-find hvr-radial-out check-btn" id="immersive-check-1">SUBMIT</a>
                     <br>
-                    <a onclick="return show('Page17','Page18');" class="btn btn-default btn-back hvr-radial-out">BACK</a>
+                    <a onclick="return show('Page16','Page18');" class="btn btn-default btn-back hvr-radial-out">BACK</a>
                     <a onclick="return show('Page19','Page18');" class="btn btn-default btn-next hvr-radial-out reveal" id="immersive-comp-1" style="opacity: 0;">NEXT</a>
                 </div>
 
