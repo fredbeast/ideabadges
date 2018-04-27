@@ -114,7 +114,7 @@ $res = $client->request('POST', 'https://idea.org.uk/api/progress', [
                 </div>
 -->
                 <div id="Page18" class="not-yet">
-                    <p class="test-info">In general, how immersive is real-time VR?</p>
+                    <p class="test-info">In general how immersive do you think real time VR is?<br>Have a go on the scale below until you get it right.</p>
                     <p class="wrong" id="immersive-wrong-1">Oops! Real-time VR really immersive, it aims to be as transportative as possible. Try again.</p>
                     <p class="right" id="immersive-right-1">Real-time VR is as immersive as it gets.</p>
                     <div class="immersive-cont">
@@ -131,7 +131,7 @@ $res = $client->request('POST', 'https://idea.org.uk/api/progress', [
                 </div>
 
                 <div id="Page19" class="not-yet">
-                    <p class="test-info">In general, how interactive is 360 video?</p>
+                    <p class="test-info">In general how interactive do you think 360 video is?<br>Have a go on the scale below until you get it right.</p>
                     <p class="wrong" id="immersive-wrong-2">Oops! 360 video isn't that interactive, it often has no interactivity. Try again.</p>
                     <p class="right" id="immersive-right-2">Yes! 360 is usually not very interactive.</p>
                     <div class="immersive-cont">
