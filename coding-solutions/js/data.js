@@ -32,7 +32,7 @@ var test = {
       },
       {
          "id":"3",
-          "step":"<p>Let’s do some research! Open a new web page and go to http://mydevice.io/devices/ to find the CSS widths and heights for the devices above</p>",
+          "step":"<p>Let’s do some research! Open a new web page and go to http://mydevice.io/ to find the CSS widths and heights for the devices above</p>",
          "panel":[
             {
                "title":"",
