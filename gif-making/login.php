@@ -14,6 +14,6 @@ $params = [
     'prompt' => 'none'
 ];
 
-$authUrl = 'https://idea.eu.auth0.com/authorize?' . http_build_query($params);
+$authUrl = 'https://idea.org.uk/oauth/authorize?' . http_build_query($params);
 
 header("Location: $authUrl"); // Redirect to Auth0
