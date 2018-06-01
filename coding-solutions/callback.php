@@ -23,7 +23,7 @@ if (!isset($code)) {
 
 $client = new \GuzzleHttp\Client();
 
-$res = $client->request('POST', 'https://idea.eu.auth0.com/oauth/token', [
+$res = $client->request('POST', 'https://idea.org.uk/oauth/token', [
     'form_params' => [
         'client_id' => getenv('CS_BADGE_CLIENT_ID'),
         'client_secret' => getenv('CS_BADGE_CLIENT_SECRET'),

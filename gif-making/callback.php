@@ -27,7 +27,7 @@ if (isset($state) && $state !== $_SESSION['oauth2_state']) {
 
 $client = new \GuzzleHttp\Client();
 
-$res = $client->request('POST', 'https://idea.eu.auth0.com/oauth/token', [
+$res = $client->request('POST', 'https://idea.org.uk/oauth/token', [
     'form_params' => [
         'client_id' => getenv('GIF_MAKING_BADGE_CLIENT_ID'),
         'client_secret' => getenv('GIF_MAKING_BADGE_CLIENT_SECRET'),
