@@ -1,3 +1,7 @@
+<?php
+  require '../vendor/autoload.php';
+  session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,13 +12,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
   <script src="js/app.js"></script>
   <!-- Google Fonts -->
-  <link <?php
-
-    require '../vendor/autoload.php';
-
-    session_start();
-    ?>
-    ="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <!-- Stylesheets -->
   <!-- Stylesheets -->

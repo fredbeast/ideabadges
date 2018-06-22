@@ -1,3 +1,7 @@
+<?php
+require '../vendor/autoload.php';
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -103,12 +107,7 @@
                 <div class="col s1 l1">
                   <img class="imgSuccess" style=" width:100%; display: none;" src="public/images/birth-confetti.gif"/>
                 </div>
-                <div class="col s1 l1"><?php
-
-                    require '../vendor/autoload.php';
-
-                    session_start();
-                    ?>
+                <div class="col s1 l1">
 
                     <img class="imgSuccess" style=" width:100%; display: none;" src="public/images/gifs/Gif_Character_Introduction_290.gif"/>
                 </div>
